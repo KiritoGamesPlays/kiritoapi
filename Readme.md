@@ -1,3 +1,4 @@
+https://g-status.ecoguardiao.tech/api/badge/1/status
 Para instalar a kiritoapi na sua aplicação basta utilizar 
 
 ```npm i kiritoapi```
