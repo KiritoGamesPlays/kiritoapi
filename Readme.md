@@ -1,4 +1,4 @@
-<a href="https://github.com/shindozk/yukufy"> <img alt="Status Api" src="https://g-status.ecoguardiao.tech/api/badge/1/status">
+<a href="https://g-status.ecoguardiao.tech/status/kiritoapi"> <img alt="Status Api" src="https://g-status.ecoguardiao.tech/api/badge/1/status">
     </a>
 
     
