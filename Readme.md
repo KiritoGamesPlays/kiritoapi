@@ -1,4 +1,5 @@
-https://g-status.ecoguardiao.tech/api/badge/1/status
+<a href="https://github.com/shindozk/yukufy"> <img alt="Status Api" src="https://g-status.ecoguardiao.tech/api/badge/1/status">
+    </a>
 Para instalar a kiritoapi na sua aplicação basta utilizar 
 
 ```npm i kiritoapi```
