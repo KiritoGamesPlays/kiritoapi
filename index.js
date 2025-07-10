@@ -216,6 +216,30 @@ async chat(p, ve, ii) {
     }
   };
 
+
+async tradutor(i, lang, ve) {
+    try {
+      const v = ve || "v1"
+      
+      if (!v) {
+          throw new Error("Você Deve Informar a versão");
+      };
+      if (!i) {
+          throw new Error("Você Deve Informar O Texto Que Será Traduzido");
+      };
+     if (!lang) {
+          throw new Error("Você Deve Informar A Linguagem Para Qual O Texto Vai Ser Traduzido");
+      };
+      
+      const api = await axios.get(`${Urlbase}/api/${v}/tradutor?text=${i}&lang${lang}`)
+      
+      return api.data;
+      
+    } catch(error){
+    throw new Error("Erro: "+ error.message)   
+    }
+  };
+
     
  
   
