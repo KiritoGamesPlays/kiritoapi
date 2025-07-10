@@ -37,6 +37,9 @@ api.GithubUserinfo("Nome do Github")
 
 //YouTube CanalInfo
 api.youtubeInfo("Nome do Canal")
+
+//Tradutor
+api.tradutor("Texto que sera traduzido", "linguagem que o texto vai ser traduzido exemplo: en = inglês")
 ```
 
 Agradecemos por utilizar nossa package.
