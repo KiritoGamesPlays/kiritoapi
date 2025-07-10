@@ -231,7 +231,7 @@ async tradutor(i, lang, ve) {
           throw new Error("Você Deve Informar A Linguagem Para Qual O Texto Vai Ser Traduzido");
       };
       
-      const api = await axios.get(`${Urlbase}/api/${v}/tradutor?text=${i}&lang${lang}`)
+      const api = await axios.get(`${Urlbase}/api/${v}/tradutor?text=${i}&lang=${lang}`)
       
       return api.data;
       
