@@ -1,6 +1,6 @@
 {
   "name": "kiritoapi",
-  "version": "1.1.0-alfa",
+  "version": "1.1.1-alfa",
   "description": "KiritoApi Api para facilitar o seu desenvolvimento de bots",
   "main": "index.js",
   "scripts": {
@@ -29,10 +29,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KiritoGamesPlays/kiritoapi.git"
+    "url": "git+https://github.com/KiritoTeam/kiritoapi.git"
   },
   "bugs": {
-    "url": "https://github.com/KiritoGamesPlays/kiritoapi/issues"
+    "url": "https://github.com/KiritoTeam/kiritoapi/issues"
   },
-  "homepage": "https://github.com/KiritoGamesPlays/kiritoapi#readme"
+  "homepage": "https://github.com/KiritoTeam/kiritoapi#readme"
 }
