@@ -103,7 +103,7 @@ async ping(ping) {
      
   
   
-async chat(p, ve, ii) {
+async chat(p, ii, ve) {
     try {
       const v = ve || "v1"
       const i = ii || "gemini"
@@ -141,6 +141,10 @@ async chat(p, ve, ii) {
       if (!l) {
           throw new Error("Você Deve Informar o Link Do Banner");
       };
+  /*  const verilink = l.includes("http")
+        if (!verilink) {
+            throw new Error("Você deve informar um link Valido");
+        };*/
         
       
       const api = await axios.get(`${Urlbase}/api/${v}/discord/banner?token=${t}&link=${l}`)
