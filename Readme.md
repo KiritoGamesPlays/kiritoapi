@@ -15,31 +15,34 @@ const KiritoApi = require("kiritoapi")
 const api = new KiritoApi()
 
 //Minecraft Info
-api.mineinfo("mc.sparklypower.net")
+await api.mineinfo("mc.sparklypower.net")
 
 //Minecraft Banner
-api.minebanner("mc.sparklypower.net")
+await api.minebanner("mc.sparklypower.net")
 
 //Discord UserInfo
-api.userinfo("820344895528632380")
+await api.userinfo("820344895528632380")
 
 //Discord SetBanner
-api.setBannerBot("Client-Token", "Link do Banner")
+await api.setBannerBot("Client-Token", "Link do Banner")
 
 //Discord Invite Info
-api.inviteInfo("Link de um Servidor")
+await api.inviteInfo("Link de um Servidor")
 
 //ChatIA
-api.chat("oii")
+await api.chat("oii")
 
 //GitHub UserInfo
-api.GithubUserinfo("Nome do Github")
+await api.GithubUserinfo("Nome do Github")
 
 //YouTube CanalInfo
-api.youtubeInfo("Nome do Canal")
+await api.youtubeInfo("Nome do Canal")
 
 //Tradutor
-api.tradutor("Texto que sera traduzido", "linguagem que o texto vai ser traduzido exemplo: en = inglês")
+await api.tradutor("Texto que sera traduzido", "linguagem que o texto vai ser traduzido exemplo: en = inglês")
+
+//Musica Lyrics
+await api.MusicLyrics("Nome do cantor", "nome da musica")
 ```
 
 Agradecemos por utilizar nossa package.
