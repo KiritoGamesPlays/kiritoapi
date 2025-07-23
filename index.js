@@ -244,6 +244,30 @@ async tradutor(i, lang, ve) {
     }
   };
 
+
+async MusicLyrics(i, musi, ve) {
+    try {
+      const v = ve || "v1"
+      
+      if (!v) {
+          throw new Error("Você Deve Informar a versão");
+      };
+      if (!i) {
+          throw new Error("Você Deve Informar O Nome Do Cantor");
+      };
+     if (!musi) {
+          throw new Error("Você Deve Informar O Nome Da Musica");
+      };
+      
+      const api = await axios.get(`${Urlbase}/api/${v}/music/lyrics/letras?artista=${i}&musica=${musi}`)
+      
+      return api.data;
+      
+    } catch(error){
+    throw new Error("Erro: "+ error.message)   
+    }
+  };
+    
     
  
   
