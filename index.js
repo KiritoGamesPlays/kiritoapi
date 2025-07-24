@@ -17,10 +17,13 @@ class KiritoApi {
 async ping(ping) {
     try {
       
-      
+      let pingt = Date.now()
       const api = await axios.get(`${Urlbase}`)
-      
-      return api.data;
+      let pings = Date.now()
+      let ping = pings - pingt
+
+        
+      return ping;
       
     } catch(error){
     throw new Error("Erro: "+ error.message)   
@@ -268,7 +271,20 @@ async MusicLyrics(i, musi, ve) {
     }
   };
     
-    
+ async privi(rota) {
+    try {
+        
+      if (!rota) {
+          throw new Error("Você Deve Informar a rota completa que lhe foi passada");
+      };
+      const api = await axios.get(`${Urlbase}/${rota}`)
+
+      return api.data;
+      
+    } catch(error){
+    throw new Error("Erro: "+ error.message)   
+    }
+  };   
  
   
   
