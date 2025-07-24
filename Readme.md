@@ -1,4 +1,4 @@
-<a href="https://g-status.ecoguardiao.tech/status/kiritoapi"> <img alt="Status Api" src="[API NPM](https://g-status.ecoguardiao.tech/api/badge/4/status)">
+<a href="https://g-status.ecoguardiao.tech/status/kiritoapi"> <img alt="Status Api" src="https://g-status.ecoguardiao.tech/api/badge/4/status">
     </a>
 
     
